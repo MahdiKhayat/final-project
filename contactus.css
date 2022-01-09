@@ -1,0 +1,33 @@
+body{
+    background-image: url(https://wallpaperaccess.com/full/2331716.jpg);
+}
+.buttons{
+    display:flex;
+    align-items: center;
+}
+div input{
+    margin-right:10px;
+}
+.w3docs {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    max-width:2000px;
+    margin: auto;
+}
+.w3docs input{
+    padding: 10px;
+}
+.w3docs select{
+    background-color: #ffffff;
+    padding:5px;
+}
+.w3docs textarea{
+    padding:10px;
+    margin-bottom:5px;
+}
+.w3docs label{
+    display:block;
+    width:100%;
+    margin-bottom:5px;
+}

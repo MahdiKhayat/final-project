@@ -1,0 +1,214 @@
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#title1{
+    margin-top: revert;
+    margin-left: 15px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.slider{
+    width: 50%;
+}
+.slider1{
+    width: 50%;
+}
+.slider2{
+    width: 50%;
+}
+.slider3{
+    width: 50%;
+}
+
+.slider1 img{
+    width: 40%;
+    display: none;
+    margin-left: auto;
+    margin-right: auto
+}
+.slider p{
+    text-align: center;
+}
+.slider1 p{
+    text-align: center;
+}
+
+.description_phone3{
+    width: 85%;
+    margin-left: 25px;
+}
+.description_phone1 p{
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.slider img {
+    width: 50%;
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+.slider2 img{
+    width: 50%;
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+.slider3 img{
+    width: 65%;
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+.slider2 p{
+    margin-top: 25px;
+    text-align: center;
+}
+.slider3 p{
+    margin-top: 25px;
+    text-align: center;
+}
+img.active {
+    display: block;
+    animation: fade 0.8s;
+}
+@keyframes fade {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+}
+.cont-btn {
+    width: 50%;
+    height: auto;
+    border: 1px solid #000;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.3);
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.btn-nav {
+    font-size: 50px;
+    margin: 0 15px;
+    cursor: pointer;
+}
+.btn-nav_slider1{
+    font-size: 50px;
+    margin: 0 15px;
+    cursor: pointer;
+}
+.cont-btn1{
+    width: 50%;
+    height: auto;
+    border: 1px solid #000;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.3);
+    display: flex;
+    justify-content: center;
+    margin-left: 25%;
+    margin-top: 11px;
+}
+.description_phone2 p{
+    margin-top: 25px;
+}
+.description_phone3 p{
+    margin-top: 25px;
+    text-align: center;
+}
+.description_phone4 p{
+    margin-top: 25px;
+    text-align: center;
+}
+.cont-btn2{
+    width: 50%;
+    height: auto;
+    border: 1px solid #000;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.3);
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.btn-nav_slider2{
+    font-size: 50px;
+    margin: 0 15px;
+    cursor: pointer;
+}
+.cont-btn3{
+    width: 55%;
+    height: auto;
+    border: 1px solid #000;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.3);
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.btn-nav_slider3{
+    font-size: 50px;
+    margin: 0 15px;
+    cursor: pointer;
+}
+footer{
+    background-color: #333;
+    width: 100%;
+    height: auto;
+}
+.footer_container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.mobiles_brand{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mobiles_brand p{
+    color: #ffff;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.social_media{
+    color: #ffff;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.social_media a{
+    text-decoration: none;
+    color: darkgray;
+}
+.mobiles_brand a{
+    text-decoration: none;
+    cursor: pointer;
+    color: #aaa;
+    font-size: 15px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.footer_contactus{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer_contactus a{
+    text-decoration: none;
+    cursor: pointer;
+    color: #aaa;
+    font-size: 15px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
